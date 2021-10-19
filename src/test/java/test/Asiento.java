@@ -2,15 +2,16 @@ package test;
 
 public class Asiento {
 	
-	String color;
+	public String color;
 	int precio;
 	int registro;
 	
 	void cambiarColor(String color) {
 		
-		if (this.equals("rojo") || this.equals("amarillo") || this.equals("verde") || this.equals("blanco") || this.equals("negro")){
+		if (color.equals("rojo") || color.equals("amarillo") || color.equals("verde") || color.equals("blanco") || color.equals("negro")){
 				this.color=color;
 		} 
 		
 	}
 }
+
